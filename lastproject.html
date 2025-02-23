@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Passion Project - Nature Conservation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background: linear-gradient(to right, #e0f7fa, #80deea);
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #00695c;
+            color: white;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        h2 {
+            font-size: 2em;
+            margin-top: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            padding: 0 20px;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-color: white;
+        }
+        button {
+            padding: 10px 15px;
+            font-size: 1em;
+            color: white;
+            background-color: #00796b;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #004d40;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        hr {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Nature Conservation</h1>
+    <p><strong>Join us in protecting our planet!</strong></p>
+</header>
+
+<div class="content">
+    <h2>Why Nature Conservation Matters</h2>
+    <p>Nature conservation is crucial for maintaining biodiversity and ensuring sustainable ecosystems. It helps preserve the natural environment for future generations.</p>
+    
+    <img src="https://example.com/nature.jpg" alt="Beautiful Nature" />
+    
+    <h2>Get Involved</h2>
+    <p>Would you like to learn more about how you can contribute? Click the button below!</p>
+    
+    <button onclick="getInvolved()">Learn More</button>
+    
+    <hr>
+    
+    <h2>Contact Us</h2>
+    <p>If you have any questions, feel free to reach out!</p>
+    <a href="mailto:elsialemayehu33@gmail.com">Email Us</a>
+</div>
+
+<script>
+    function getInvolved() {
+        const name = prompt("What is your name?");
+        
+        if (name) {
+            alert(Thank you, ${name}! We appreciate your interest in nature conservation.);
+        } else {
+            alert('Please enter your name to get involved!');
+        }
+    }
+</script>
+
+</body>
+</html>
